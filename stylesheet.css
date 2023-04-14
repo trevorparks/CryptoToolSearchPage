@@ -1,0 +1,78 @@
+body {
+  background-color: #121212; /* Dark background color */
+  color: #fff; /* Light text color */
+}
+  .font-styling {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+   
+  }
+  
+  div {
+    margin: 10px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+  }
+  
+  select {
+    width: 200px;
+  }
+  
+  #results {
+    margin-top: 20px;
+  }
+  /* Global styles */
+
+
+/* Search container */
+.search-container {
+  margin: 20px auto;
+  width: 300px;
+}
+
+/* Search input */
+.search-input {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #1e1e1e; /* Dark input background color */
+  color: #fff; /* Light input text color */
+}
+
+/* Search results container */
+.search-results {
+  margin-top: 10px;
+}
+
+/* Search result item */
+.search-result {
+  padding: 10px;
+  background-color: #1e1e1e; /* Dark result item background color */
+  border-bottom: 1px solid #424242; /* Border color for result items */
+}
+
+/* Search result item: hover */
+/* .search-result:hover {
+  background-color: #272727; /* Dark result item background color on hover
+} */
+
+/* Search result item title */
+/* .search-result-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+} */
+
+/* Search result item description */
+/* .search-result-description {
+  color: #a0a0a0; /* Light color for result item description
+} */
+
+
+  

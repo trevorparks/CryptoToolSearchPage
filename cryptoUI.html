@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Searchable Website</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+    <h1 class="font-styling">Crypton</h1>
+    <h2 class="font-styling">Search for Tools, Analytics, and More</h2>
+  </head>
+  <body>
+    <div class="search-container">
+
+      <div class="search-input">
+        <form id="search-form">
+          <label for="search-input">Search for a Crypto Website:</label>
+          <input
+            type="text"
+            id="search-input"
+            name="search"
+            required
+            minlength="3"
+            class="search"
+            placeholder="etherscan"
+          />
+          <label for="category-select">Category:</label>
+          <select id="category-select" class="search" name="category">
+            <option value="">Any</option>
+            <option value="DeFi">DeFi</option>
+            <option value="NFTs">NFTs</option>
+            <option value="Analytics">Analytics</option>
+            <option value="Tools">Tools</option>
+          </select>
+          <label for="sort-select">Sort By:</label>
+           <select id="sort-select" class="search" name="sort">
+           <option value="">None</option>
+            <option value="name-asc">Name (A-Z)</option>
+             <option value="name-desc">Name (Z-A)</option>
+          </select>
+
+          <button
+              type="searchBoxesInput"
+              class="search"
+              id="searchBoxesInput"
+            >
+              Search
+            </button>
+            <!-- <button onclick="printAllData()">I Want it All!</button> -->
+          </form>
+      </div>
+      <div class="search-results" id="results"></div>
+
+    </div>
+    <script src="cryptoui.js"></script>
+
+  </body>
+</html>

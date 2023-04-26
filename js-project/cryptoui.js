@@ -1,3 +1,5 @@
+import MiniSearch from 'minisearch'
+
 const yieldFarmingData = [
   { name: "Uniswap", url: "uniswap.org", category: "DeFi", description: "A decentralized exchange protocol"},
   { name: "Yearn Finance", url: "yearn.fi", category: "DeFi",description: "A yield aggregator platform" },
@@ -14,9 +16,9 @@ const nftsData = [
   ];
 
   const analyticsData = [
-    { name: "Dune Analytics", description: "A powerful tool for querying and visualizing blockchain data" },
-    { name: "Flipside Crypto", description: "A platform for analyzing and understanding blockchain data" },
-    { name: "Glassnode", description: "A provider of on-chain data and analytics" }
+    { name: "Dune Analytics", url: "https://dune.xyz", description: "A powerful tool for querying and visualizing blockchain data" },
+    { name: "Flipside Crypto", url: "https://flipsidecrypto.xyz/", description: "A platform for analyzing and understanding blockchain data" },
+    { name: "Glassnode", url: "https://glassnode.com", description: "A provider of on-chain data and analytics" }
     ];
 
 
